@@ -1,0 +1,33 @@
+int[] notes = new int[] {100, 50, 20, 10}
+int[] counter = new int[] {4}
+int[] notesLeft = new int[] {100, 100, 100, 100}
+
+
+
+output "Enter amount"
+
+int amount = input
+
+if amount % 10 != 0 
+	->output error
+
+else
+for (int i = 0; i < 4; i++)
+	if (amount >= notes[i])
+		if (amount / notes[i] > notesLeft[i])
+			
+
+
+
+
+
+
+
+
+
+
+
+		counter[i] = amount / notes[i]
+		amount = amount % notes[i]
+
+output: counter[0] + "100€ note(s)," counter[1] + "50€ note(s), " + counter[2] + "20€ note(s)," counter[3] + "10€ note(s)"
