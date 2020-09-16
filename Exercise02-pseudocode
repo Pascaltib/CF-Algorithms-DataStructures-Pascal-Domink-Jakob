@@ -1,0 +1,23 @@
+Output: "Please enter an integer representing elapsed time in seconds."
+
+int = input
+
+weeks = input / (60*60*24*7)
+
+input = input % (60*60*24*7)
+
+days = input / (60*60*24)
+
+input = input % (60*60*24)
+
+hours = input / (60*60)
+
+input = input % (60*60)
+
+minutes = input / 60
+
+input = inpnut % 60
+
+seconds = input
+
+Output: weeks + "weeks" + days + "days" + hours + "hours" + minutes + "minutes" + seconds + "seconds."
