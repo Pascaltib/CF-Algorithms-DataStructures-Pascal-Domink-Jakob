@@ -1,0 +1,24 @@
+Output = "What is the maximum number?"
+
+N = user input
+
+Random number generated from 1-N = randomNum
+
+Output = "Guess a number"
+
+Do
+	guessNum = user input
+
+while (guessNum!= randomNum)
+	
+
+	if(guessNum==randomNum){
+		Output = "You are correct - the random number is: " + randomNum
+
+		End program
+	}
+	else if(guessNum<randomNum){
+		Output = "My number is higher than " + guessNum+ " - Guess higher!" 
+	}
+	else
+		Output = "My number is lower than " + guessNum+ " - Guess lower!" 
