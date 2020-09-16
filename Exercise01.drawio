@@ -1,1 +1,135 @@
-<mxfile host="app.diagrams.net" modified="2020-09-16T07:47:04.940Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" version="13.7.1" etag="GFWi3vHZzu-J1UwvkdY5" type="github"><diagram id="RRjqWDlP5kEfsPKnroi9">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-09-16T08:11:00.196Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="QxTBfj0VKnbG2uo8IBZQ" version="13.7.1" type="github">
+  <diagram id="RRjqWDlP5kEfsPKnroi9" name="Page-1">
+    <mxGraphModel dx="1188" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="90tvHEB4SJkp0Io_BM54-1" value="Start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="90tvHEB4SJkp0Io_BM54-2" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="90tvHEB4SJkp0Io_BM54-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="450" as="sourcePoint" />
+            <mxPoint x="425" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="90tvHEB4SJkp0Io_BM54-3" value="&quot;What is the maximum number&quot;?" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="349" y="150" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="90tvHEB4SJkp0Io_BM54-6" value="N = input" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="358" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="90tvHEB4SJkp0Io_BM54-7" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="210" as="sourcePoint" />
+            <mxPoint x="420" y="260" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="90tvHEB4SJkp0Io_BM54-9" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="90tvHEB4SJkp0Io_BM54-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="430" as="sourcePoint" />
+            <mxPoint x="418" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="90tvHEB4SJkp0Io_BM54-10" value="Random int from 1 to N = randomNum" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="358" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="90tvHEB4SJkp0Io_BM54-11" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="417.5" y="430" as="sourcePoint" />
+            <mxPoint x="417.5" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="90tvHEB4SJkp0Io_BM54-12" value="&quot;Guess a num&quot;&lt;br&gt;guessNum = input" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="480" width="128" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="90tvHEB4SJkp0Io_BM54-13" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="417.5" y="540" as="sourcePoint" />
+            <mxPoint x="417.5" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="90tvHEB4SJkp0Io_BM54-15" value="guessNum==randomNum?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="331.5" y="590" width="173" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="90tvHEB4SJkp0Io_BM54-16" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="504.5" y="650" as="sourcePoint" />
+            <mxPoint x="555" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="90tvHEB4SJkp0Io_BM54-17" value="True" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="504.5" y="620" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="90tvHEB4SJkp0Io_BM54-18" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="90tvHEB4SJkp0Io_BM54-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="454.5" y="750" as="sourcePoint" />
+            <mxPoint x="418" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="90tvHEB4SJkp0Io_BM54-19" value="False" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="365" y="720" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="90tvHEB4SJkp0Io_BM54-20" value="Output = &quot;You are correct - the random number is: &quot; + randomNum" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="544.5" y="605" width="245.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="90tvHEB4SJkp0Io_BM54-21" value="End" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="607.25" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="90tvHEB4SJkp0Io_BM54-22" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="666.75" y="695" as="sourcePoint" />
+            <mxPoint x="666.75" y="755" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="90tvHEB4SJkp0Io_BM54-23" value="guessNum&amp;lt;randomNum?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="302.5" y="770" width="231" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="90tvHEB4SJkp0Io_BM54-24" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="90tvHEB4SJkp0Io_BM54-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="399" y="960" as="sourcePoint" />
+            <mxPoint x="418" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="90tvHEB4SJkp0Io_BM54-25" value="False" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="890" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="90tvHEB4SJkp0Io_BM54-26" value="Output = &quot;My number is higher than &quot; + guessNum+ &quot; - Guess higher!&quot;&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="782.5" width="240" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="90tvHEB4SJkp0Io_BM54-27" value="True" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="790" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="90tvHEB4SJkp0Io_BM54-28" value="" style="endArrow=classic;html=1;" edge="1" parent="1" target="90tvHEB4SJkp0Io_BM54-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="302.5" y="825" as="sourcePoint" />
+            <mxPoint x="352.5" y="775" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="90tvHEB4SJkp0Io_BM54-29" value="Output = &quot;My number is lower than &quot; + guessNum+ &quot; - Guess lower!&quot;&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="293.5" y="930" width="240" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="90tvHEB4SJkp0Io_BM54-33" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="90tvHEB4SJkp0Io_BM54-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="782.5" as="sourcePoint" />
+            <mxPoint x="180" y="732.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="90tvHEB4SJkp0Io_BM54-34" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="90tvHEB4SJkp0Io_BM54-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="980" as="sourcePoint" />
+            <mxPoint x="570" y="930" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="800" y="980" />
+              <mxPoint x="800" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
